@@ -10,7 +10,7 @@
   <section class="container">
     <header>Add Driver</header>
 
-    <form class="form" aria-label="Add Driver Form">
+    <form class="form" aria-label="Add Driver Form" id="driverForm">
       <div class="input-box">
         <label for="fullName">Full Name</label>
         <input type="text" id="fullName" name="fullName" required placeholder="Enter full name">
@@ -55,8 +55,10 @@
         </div>
       </div>
 
-      <button type="submit">Submit Driver Information</button>
+      <button type="button" onclick="submitForm()">Submit Driver Information</button>
     </form>
   </section>
+
+  <script src="./script.js"></script>
 </body>
 </html>
