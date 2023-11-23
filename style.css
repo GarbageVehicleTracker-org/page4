@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  max-width: 500px;
+  max-width: 800px;
   width: 90%;
   background: #ccc;
   padding: 25px;
@@ -20,7 +20,7 @@
 }
 
 .form .input-box {
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
 }
 
@@ -32,7 +32,7 @@
 .form .select-box select {
   position: relative;
   height: 35px;
-  width: 93%;
+  width: 90%; /* Adjusted width to 100% */
   outline: none;
   font-size: 1rem;
   color: #808280;
@@ -49,12 +49,13 @@
 
 .form .column1 {
   display: flex;
-  width: 100%;
+  width: 90%;
   column-gap: 25px;
+  margin-top: 10px; /* Adjusted margin-top for better spacing */
 }
 
-.input-box.address {
-  width: 100%;
+.input-box.age {
+  width: 30%;
   margin-top: 10px;
 }
 
@@ -66,7 +67,7 @@
 .form .gender {
   display: flex;
   align-items: center;
-  column-gap: 50px;
+  column-gap: 25px; /* Adjusted column-gap for better spacing */
   flex-wrap: wrap;
 }
 
@@ -87,18 +88,9 @@
   color: #000;
 }
 
-.select-box select {
-  height: 100%;
-  width: 100%;
-  outline: none;
-  border: none;
-  color: #808280;
-  background: #fcedda;
-}
-
 .form button {
   height: 40px;
-  width: 100%;
+  width: 90%;
   color: #000;
   font-size: 1rem;
   font-weight: 400;
